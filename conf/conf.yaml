@@ -1,0 +1,15 @@
+# ------ BEGIN: Spring configurations ------
+spring:
+  application:
+    name: onboarding-ms
+server:
+  port: 8082
+
+bootstrapServers: kafka-1301504412-1-1413748672.scus.kafka-v2-cnps-hippa-stg.ms-df-messaging.stg-az-southcentralus-10.prod.us.walmart.net:9093
+topicName: canopus.index.dev
+retryCount: 3
+group-id: canopus-index-ms-dev
+
+
+# ------ END: Spring configurations ------
+
